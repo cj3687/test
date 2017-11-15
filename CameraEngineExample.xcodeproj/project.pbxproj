@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB3B05D31D8C242A00165E2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3B05D21D8C242A00165E2C /* AppDelegate.swift */; };
-		BB3B05D51D8C242A00165E2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3B05D41D8C242A00165E2C /* ViewController.swift */; };
-		BB3B05D81D8C242A00165E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3B05D61D8C242A00165E2C /* Main.storyboard */; };
-		BB3B05DA1D8C242A00165E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3B05D91D8C242A00165E2C /* Assets.xcassets */; };
-		BB3B05DD1D8C242A00165E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3B05DB1D8C242A00165E2C /* LaunchScreen.storyboard */; };
 		BB9DFAD61D8C4D95001E7B35 /* CameraEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9DFAD51D8C4D95001E7B35 /* CameraEngine.framework */; };
 /* End PBXBuildFile section */
 
@@ -136,9 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3B05DD1D8C242A00165E2C /* LaunchScreen.storyboard in Resources */,
-				BB3B05DA1D8C242A00165E2C /* Assets.xcassets in Resources */,
-				BB3B05D81D8C242A00165E2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3B05D51D8C242A00165E2C /* ViewController.swift in Sources */,
-				BB3B05D31D8C242A00165E2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
