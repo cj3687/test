@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.(filterContentForSearchText(searchText : String, scope : String) -&gt; ()).(closure #1):SearchCityViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "networkforcast">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.searchBarSearchButtonClicked(UISearchBar) -&gt; ():SearchCityViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():SearchCityViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tutorialsFromPlist">
+            </PersistentString>
+            <PersistentString
+               value = "dictionary[&quot;one&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "UserDefaults.standard.string(forKey: &quot;currentCityName&quot;)!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WeatherViewController.collectionView(UICollectionView, cellForItemAt : IndexPath) -&gt; UICollectionViewCell:WeatherViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.weather?.title">
+            </PersistentString>
+            <PersistentString
+               value = "weathers.count">
+            </PersistentString>
+            <PersistentString
+               value = "weathers.startIndex">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "cell.weather">
+            </PersistentString>
+            <PersistentString
+               value = "weathers[indexPath.item]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WeatherViewController.viewDidLoad() -&gt; ():WeatherViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "font">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(filterContentForSearchText(searchText : String, scope : String) -&gt; ()).(closure #1).(closure #1):SearchCityViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "networkforcast">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Session.init(dictionary : NSDictionary) -&gt; Session:Session.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dictionary[&quot;tirr23rtle&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "dictionary[&quot;title&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "dictionary[&quot;image&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NetworkController.getForecast(completion : (WeatherAPIResult) -&gt; ()) -&gt; ():NetworkController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "restCall(url: URLs.init().Forecast, completion: completion)">
+            </PersistentString>
+            <PersistentString
+               value = "URLs.init().Forecast">
+            </PersistentString>
+            <PersistentString
+               value = "cityName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.initData() -&gt; ():SearchCityViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.string(forKey: &quot;searchCityName&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "(UserDefaults.standard.string(forKey: &quot;searchCountryName&quot;) ">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.cellForRow(at: 1)">
+            </PersistentString>
+            <PersistentString
+               value = "UserDefaults.standard.string(forKey: &quot;searchCountryName&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NetworkController.restCall(url : URL, completion : (WeatherAPIResult) -&gt; ()) -&gt; ():NetworkController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.string(forKey: &quot;currentCityName&quot;)! ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Weather.allWeather() -&gt; [Weather]:Inspiration.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "i">
+            </PersistentString>
+            <PersistentString
+               value = "data.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "URLs.Forecast.unsafeMutableAddressor:NetworkController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.string(forKey: &quot;currentCityName&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WeatherViewController.tapFunction(sender : UIGestureRecognizer) -&gt; ():WeatherViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.weathers[sender.view?.tag].title">
+            </PersistentString>
+            <PersistentString
+               value = "UserDefaults.standard.string(forKey: &quot;currentCityName&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "URLs.init() -&gt; URLs:NetworkController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(UserDefaults.standard.string(forKey: &quot;searchCityName&quot;)?.replacingOccurrences(of: &quot; &quot;, with: &quot;&quot;, options: .literal, range: nil))! ">
+            </PersistentString>
+            <PersistentString
+               value = "UserDefaults.standard.string(forKey: &quot;currentCityName&quot;)!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WeatherViewController.tapFunction(sender : UITapGestureRecognizer) -&gt; ():WeatherViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.titleLabel.text">
+            </PersistentString>
+            <PersistentString
+               value = "UITableView.indexPathForView(view)">
+            </PersistentString>
+            <PersistentString
+               value = "self.indexPathForPreferredFocusedView(in: self.collectionView!)">
+            </PersistentString>
+            <PersistentString
+               value = "sender.accessibilityLabel">
+            </PersistentString>
+            <PersistentString
+               value = "sender.mutableCopy()">
+            </PersistentString>
+            <PersistentString
+               value = "sender.accessibilityActivate()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InspirationsViewController.collectionView(UICollectionView, cellForItemAt : IndexPath) -&gt; UICollectionViewCell:InspirationsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "inspirations.count">
+            </PersistentString>
+            <PersistentString
+               value = "inspirations.underestimatedCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ForecastController.getForecast(completionHandler : (ForecastWeek?, Error?) -&gt; ()) -&gt; ():ForecastController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

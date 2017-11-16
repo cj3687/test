@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A238m" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NFt-in-qod">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather View Controller-->
+        <scene sceneID="DDP-VE-zX8">
+            <objects>
+                <collectionViewController id="sEF-UD-L5q" userLabel="Weather View Controller" customClass="WeatherViewController" customModule="OpenWeather" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="afa-hS-nZe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewLayout key="collectionViewLayout" id="py9-JV-cL9" customClass="UltravisualLayout" customModule="OpenWeather" customModuleProvider="target"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WeatherCell" id="zbq-PC-PCV" userLabel="WeatherCell" customClass="WeatherCell" customModule="OpenWeather" customModuleProvider="target">
+                                <rect key="frame" x="87" y="0.0" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z8c-ww-sya">
+                                            <rect key="frame" x="0.0" y="-40" width="200" height="280"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="280" id="rPu-9I-mcq"/>
+                                            </constraints>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZY-wx-UAk">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inspiration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6lS-3W-94H">
+                                            <rect key="frame" x="0.0" y="78" width="200" height="44"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="44" id="Olw-ZX-3CL"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="38"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PB-7m-Vpz">
+                                            <rect key="frame" x="0.0" y="143" width="200" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="pdp-dh-qjv"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="3PB-7m-Vpz" firstAttribute="top" secondItem="6lS-3W-94H" secondAttribute="bottom" constant="21" id="8bd-NE-wrZ"/>
+                                    <constraint firstItem="3PB-7m-Vpz" firstAttribute="leading" secondItem="zbq-PC-PCV" secondAttribute="leading" id="Bpf-Rd-rhi"/>
+                                    <constraint firstAttribute="trailing" secondItem="6lS-3W-94H" secondAttribute="trailing" id="DE0-XZ-YaT"/>
+                                    <constraint firstAttribute="centerY" secondItem="z8c-ww-sya" secondAttribute="centerY" id="F9H-sq-j8A"/>
+                                    <constraint firstItem="6lS-3W-94H" firstAttribute="leading" secondItem="zbq-PC-PCV" secondAttribute="leading" id="HRl-kh-ob2"/>
+                                    <constraint firstAttribute="trailing" secondItem="3PB-7m-Vpz" secondAttribute="trailing" id="U7v-Q0-cBO"/>
+                                    <constraint firstItem="z8c-ww-sya" firstAttribute="leading" secondItem="zbq-PC-PCV" secondAttribute="leading" id="XO2-p1-Yvx"/>
+                                    <constraint firstItem="bZY-wx-UAk" firstAttribute="leading" secondItem="zbq-PC-PCV" secondAttribute="leading" id="ZUU-zn-LXq"/>
+                                    <constraint firstAttribute="centerY" secondItem="6lS-3W-94H" secondAttribute="centerY" id="b1w-pg-mc5"/>
+                                    <constraint firstItem="bZY-wx-UAk" firstAttribute="top" secondItem="zbq-PC-PCV" secondAttribute="top" id="c8l-XH-IkU"/>
+                                    <constraint firstAttribute="trailing" secondItem="bZY-wx-UAk" secondAttribute="trailing" id="icQ-b3-V9z"/>
+                                    <constraint firstAttribute="trailing" secondItem="z8c-ww-sya" secondAttribute="trailing" id="sbv-VC-kuG"/>
+                                    <constraint firstAttribute="bottom" secondItem="bZY-wx-UAk" secondAttribute="bottom" id="wtw-q9-nXF"/>
+                                </constraints>
+                                <size key="customSize" width="200" height="200"/>
+                                <connections>
+                                    <outlet property="imageCoverView" destination="bZY-wx-UAk" id="yWH-5i-ZgB"/>
+                                    <outlet property="imageView" destination="z8c-ww-sya" id="D9D-Tr-PfO"/>
+                                    <outlet property="speakerLabel" destination="3PB-7m-Vpz" id="xsW-J4-vPL"/>
+                                    <outlet property="titleLabel" destination="6lS-3W-94H" id="Pff-Kp-63k"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="sEF-UD-L5q" id="gGG-Ma-oyP"/>
+                            <outlet property="delegate" destination="sEF-UD-L5q" id="kxU-z0-bWj"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="WNR-1l-oXC"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cf-MV-hZ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1799.2" y="677.81109445277366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eP3-RJ-Dae">
+            <objects>
+                <navigationController storyboardIdentifier="weatherViewController" id="NFt-in-qod" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="ym3-Uy-ePu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <color key="barTintColor" red="0.1333196759223938" green="0.133340984582901" blue="0.13331243395805359" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="sEF-UD-L5q" kind="relationship" relationship="rootViewController" id="cce-bi-82r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvY-cz-maO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2718" y="678"/>
+        </scene>
+    </scenes>
+</document>
